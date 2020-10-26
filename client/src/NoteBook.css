@@ -1,0 +1,22 @@
+.NoteBook {
+  margin: 20;
+  padding: 0;
+  width: 900px;
+}
+.avatar {
+  width: 10px;
+  height: 10px;
+}
+.card {
+  margin: 10px;
+  padding: 10px;
+}
+.input {
+  width: 200px;
+}
+.input.update{
+  margin-right: 10px;
+}
+.btn {
+  margin: 20px;
+}
