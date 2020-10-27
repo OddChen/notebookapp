@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import axios from 'axios';
 import { Button, Input, List, Avatar, Card } from 'antd';
 import { UserOutlined } from '@ant-design/icons';
+import 'antd/dist/antd.css';
 import './NoteBook.css';
 
 class NoteBook extends Component{
@@ -107,6 +108,7 @@ class NoteBook extends Component{
     return (
       <div className="NoteBook">
         <List
+          className="list"
           itemLayout="horizontal"
           dataSource={data}
           renderItem={item=>(
